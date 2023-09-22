@@ -37,6 +37,11 @@ button.reset {
     border-radius: 12px;
     cursor: pointer;
 }
+
 .container .board .boxes img {
     margin: 60px;
+}
+.container .title img {
+    padding: 20px;
+    width: 50px;
 }
