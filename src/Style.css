@@ -3,6 +3,8 @@ body {
 }
 .container {
     text-align: center;
+    min-width: 600px;
+    margin: auto;
 }
 .title {
     margin-top: 50px;
@@ -24,14 +26,15 @@ button.reset {
 }
 .container .board {
     height: 600px;
-    width: 564px;
+    width: 554px;
     display: flex;
+    justify-content: center;
     margin: auto;
 }
 .container .board .boxes {
     display: flex;
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    width: 150px;
     background-color: #1f3540;
     border: 5px solid #0f1b21;
     border-radius: 12px;
@@ -39,9 +42,9 @@ button.reset {
 }
 
 .container .board .boxes img {
-    margin: 60px;
+    margin: 50px;
 }
 .container .title img {
-    padding: 20px;
+    padding: 0px 20px;
     width: 50px;
 }
